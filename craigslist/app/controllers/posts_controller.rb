@@ -21,13 +21,14 @@ class PostsController < ApplicationController
   end
 
   def edit
+    @category = Category.find(params[:category_id])
     @post = Post.find(params[:id])
   end
 
   def update
     @category = Category.find(params[:category_id])
     @post = Post.find(params[:id])
-    @post = Post.update_attributes(params[:post])
+    @post.update_attributes(params[:post])
     if @post.save
       redirect_to category_post_path(@category, @post)
     else
@@ -35,7 +36,7 @@ class PostsController < ApplicationController
     end
   end
 
-  def delete
+  def destroy
     post = Post.find(params[:id])
     category = post.category
     post.destroy
