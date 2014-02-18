@@ -1,4 +1,12 @@
 class UrlsController < ApplicationController
+  before_filter :check_authorization
+
+  def check_authorization
+    unless session[:id] == params[:user_id].to_i
+      redirect_to root_path
+    end
+  end
+
   def index
     @user = User.find(params[:user_id])
     @urls = @user.urls
