@@ -7,4 +7,6 @@ CraigslistJr::Application.routes.draw do
     resources :posts
   end
 
+  get '/categories/:category_id/posts/:id/:secret_url', to: 'posts#edit'
+
 end
