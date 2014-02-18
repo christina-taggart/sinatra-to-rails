@@ -1,7 +1,4 @@
 class PostsController < ApplicationController
-  def index
-    @posts = Post.find_by_category_id(params[:category_id])
-  end
 
   def show
     @post = Post.find(params[:id])

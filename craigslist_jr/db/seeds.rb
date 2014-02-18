@@ -7,23 +7,23 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-# DEFAULT_CATEGORIES = [
-#                         'missed connections',
-#                         'rants and raves',
-#                         'boats for sale',
-#                         'pet services',
-#                         'crew gigs',
-#                         'parking / storage',
-#                         'housing swap',
-#                         'casual encounters',
-#                         'farm+garden for sale',
-#                         'lost+found'
-#                       ]
+DEFAULT_CATEGORIES = [
+                        'missed connections',
+                        'rants and raves',
+                        'boats for sale',
+                        'pet services',
+                        'crew gigs',
+                        'parking / storage',
+                        'housing swap',
+                        'casual encounters',
+                        'farm+garden for sale',
+                        'lost+found'
+                      ]
 
 
-# DEFAULT_CATEGORIES.each do |service|
-#   Category.create(name: service)
-# end
+DEFAULT_CATEGORIES.each do |service|
+  Category.create(name: service)
+end
 
 category = Category.find_by_name('pet services')
 

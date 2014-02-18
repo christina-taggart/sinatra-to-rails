@@ -18,11 +18,13 @@ ActiveRecord::Schema.define(:version => 20140218183906) do
   end
 
   create_table "posts", :force => true do |t|
-    t.integer "category_id"
-    t.string  "title"
-    t.string  "body"
-    t.string  "secret_url"
-    t.integer "price"
+    t.integer  "category_id"
+    t.string   "title"
+    t.string   "body"
+    t.string   "secret_url"
+    t.integer  "price"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   add_index "posts", ["secret_url"], :name => "index_posts_on_secret_url", :unique => true
