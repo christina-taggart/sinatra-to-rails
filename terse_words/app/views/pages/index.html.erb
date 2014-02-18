@@ -1,3 +1,18 @@
 <h1>TERSE WORDS</h1>
 <h2>If you use our service, put a quarter in the terse jar</h2>
 <%= link_to("Sign up", new_user_path) %>
+<ul>
+  <%= form_tag '/sign_in' do %>
+  <li>
+    <%= label_tag :email %>
+    <%= text_field_tag :email %>
+  </li>
+  <li>
+    <%= label_tag :password %>
+    <%= password_field_tag :password %>
+  </li>
+  <li>
+    <%= submit_tag "Sign in" %>
+  </li>
+  <% end %>
+</ul>

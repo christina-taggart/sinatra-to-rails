@@ -1,5 +1,6 @@
 <div class="user">
   <p><%= @user.name %></p>
   <p><%= link_to("User's URLs", user_urls_path(@user)) %></p>
-  <%= link_to("Shorten a Url", new_user_url_path(@user)) %>
+  <p><%= link_to("Shorten a Url", new_user_url_path(@user)) %></p>
+  <p><%= link_to("Sign out", '/sign_out', method: :delete) %></p>
 </div>
