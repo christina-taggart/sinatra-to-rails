@@ -1,2 +1,8 @@
 <h1><%= @category.name.titleize %> Page</h1>
-
+<p><%= link_to('Create a Post', new_category_post_path(@category)) %></p>
+<ul>
+  <% @posts.each do |post| %>
+    <li><%= link_to(post.title, category_post_path(@category, post)) %></li>
+  <% end %>
+</ul>
+<p><%= link_to('Create a Post', new_category_post_path(@category)) %></p>
