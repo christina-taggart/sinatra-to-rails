@@ -5,6 +5,7 @@
       <%= post.content %>
     </li>
   <% end %>
-   <%= link_to "delete", category_path(@category), :method => :delete %>
+    <%= link_to "Create Post", new_category_post_path(@category) %>
+   <%= link_to "delete category", category_path(@category), :method => :delete %>
 
 </ul>

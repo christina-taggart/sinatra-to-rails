@@ -6,13 +6,15 @@ class PostsController < ApplicationController
   end
 
   def new
-    @post = Post.new
+    @category = Category.find(params[:category_id])
+    @post = @category.posts.build
   end
 
   def create
-    @post = Post.new(params[:post)
+    @category = Category.find(params[:category_id])
+    @post = @category.posts.build(params[:post])
     if @post.save
-      redirect_to post_path(@post)
+      redirect_to category_post_path(@category, @post)
     else
       render :new
     end
@@ -23,9 +25,11 @@ class PostsController < ApplicationController
   end
 
   def update
+    @category = Category.find(params[:category_id])
+    @post = Post.find(params[:id])
     @post = Post.update_attributes(params[:post])
     if @post.save
-      redirect_to post_path(@post)
+      redirect_to category_post_path(@category, @post)
     else
       render :edit
     end
@@ -37,5 +41,4 @@ class PostsController < ApplicationController
     post.destroy
     redirect_to category_path(category)
   end
-
 end
