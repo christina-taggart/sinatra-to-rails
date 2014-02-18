@@ -13,25 +13,11 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(params[:user])
-    @user.password = params[:password
-    ]
+    @user.password = params[:password]
     if @user.save
       redirect_to user_path(@user)
     else
       render :new
-    end
-  end
-
-  def edit
-    @user = User.find(params[:id])
-  end
-
-  def update
-    @user = User.find(params[:id])
-    if @user.update_attributes(params[:user])
-      redirect_to user_path(@user)
-    else
-      render :edit
     end
   end
 
