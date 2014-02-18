@@ -1,0 +1,5 @@
+<%= form_for new_url do |f| %>
+  <%= f.label("Enter your url") %>
+  <%= f.text_field (:original_url) %>
+  <%= submit_tag ("shorten") %>
+<% end  %>

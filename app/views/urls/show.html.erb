@@ -1,0 +1,9 @@
+<h1>Shorten your URL</h1>
+
+<h3>Your shortened URL:</h3>
+<% if @url.url_digest %>
+  <%= @url.url_digest %>
+<% end %>
+
+<h3>Shorten another URL</h3>
+<%= render partial: "form", locals: {new_url: @new_url} %>
