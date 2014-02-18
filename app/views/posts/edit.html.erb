@@ -1,0 +1,7 @@
+<p>Editing Post: <%= @post.title %></p>
+<%= form_for @post do |f| %>
+  Link: <%= f.text_field :link %><br />
+  Title: <%= f.text_field :title %><br />
+  Description: <%= f.text_area :description %><br />
+  <%= f.submit %>
+<% end %>
