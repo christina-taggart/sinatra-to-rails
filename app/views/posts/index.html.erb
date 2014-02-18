@@ -1,0 +1,9 @@
+<h1><%= @category.name %></h1>
+<ul>
+  <% @posts.each do |post| %>
+    <li><%= link_to post.title, category_post_path(@category, post) %></li>
+  <% end %>
+</ul>
+<%= link_to 'New Post', new_category_post_path(@category) %>
+<%= link_to 'Edit Category', edit_category_path(@category) %>
+<%= button_to 'Delete Category', @category, method: 'delete' %>

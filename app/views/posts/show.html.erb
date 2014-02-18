@@ -1,0 +1,6 @@
+<h1><%= @post.title %></h1>
+<p><%= @post.body %></p>
+<p>localhost:3000/<%= @post.edit_key %></p>
+
+<%= link_to 'Edit Post', edit_category_post_path(@category, @post) %>
+<%= button_to 'Delete Post', category_post_path(@category, @post), method: 'delete' %>
