@@ -1,0 +1,12 @@
+<h1>Edit post from <%= @category.name.titleize %></h1>
+<%= form_for [@category, @post]  do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %><br>
+  <%= f.label :body %><br>
+  <%= f.text_area :body %><br>
+  <%= f.label :price %>
+  <%= f.text_field :price %><br>
+  <%= f.submit  %>
+<% end %>
+
+<%= link_to('delete', category_post_path(@category, @post), method: :delete, confirm: 'really delete?') %>
