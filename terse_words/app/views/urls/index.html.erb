@@ -1,0 +1,8 @@
+<div id="url_list">
+  <% @urls.each do |url| %>
+  <div class="url">
+    <p>Full Url: <%= url.long_url %></p>
+    <p>Shortened Url: <%= url.short_url %></p>
+  </div>
+  <% end %>
+</div>

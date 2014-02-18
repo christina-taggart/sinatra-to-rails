@@ -1,0 +1,12 @@
+<h3>Edit The Url</h3>
+<ul>
+  <%= form_for [@url.user, @url] do |f| %>
+    <li>
+      <%= f.label :long_url, "Full Url" %>
+      <%= f.text_field :long_url, @url.long_url %>
+    </li>
+
+    <li>
+      <%= f.submit %>
+    </li>
+</ul>

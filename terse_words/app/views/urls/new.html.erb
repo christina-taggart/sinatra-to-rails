@@ -1,0 +1,11 @@
+<h3>Shorten a link</h3>
+<ul>
+  <%= form_for [@user, @url] do |f| %>
+  <li>
+    <%= f.label :long_url %>
+    <%= f.text_field :long_url %>
+  </li>
+  <li>
+    <%= f.submit %>
+  </li>
+</ul>
