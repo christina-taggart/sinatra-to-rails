@@ -1,6 +1,6 @@
 <div class="url">
   <p>Full Url: <%= @url.long_url %></p>
   <p>Shortened Url: <%= @url.short_url %></p>
-  <p><%= link_to("Edit", edit_url_path(@url)) %></p>
-  <p><%= link_to("Delete", url_path(@url), method: :delete)%></p>
+  <p><%= link_to("Delete", user_url_path(@user, @url), method: :delete)%></p>
+  <p><%= link_to("Back to user page", user_path(@user)) %></p>
 </div>

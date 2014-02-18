@@ -1,4 +1,5 @@
 <div class="user">
-  <p>User Name:<%= @user.name %></p>
-  <p><%= link_to("User's URLs", user_urls_path(@user) %></p>
+  <p><%= @user.name %></p>
+  <p><%= link_to("User's URLs", user_urls_path(@user)) %></p>
+  <%= link_to("Shorten a Url", new_user_url_path(@user)) %>
 </div>

@@ -1,9 +1,11 @@
 class UrlsController < ApplicationController
   def index
-    @urls = User.find(params[:user_id]).urls
+    @user = User.find(params[:user_id])
+    @urls = @user.urls
   end
 
   def show
+    @user = User.find(params[:user_id])
     @url = Url.find(params[:id])
   end
 
@@ -14,24 +16,11 @@ class UrlsController < ApplicationController
 
   def create
     @user = User.find(params[:user_id])
-    @url = Url.new(params[:url])
+    @url = @user.urls.build(params[:url])
     if @url.save
       redirect_to user_url_path(@user, @url)
     else
       render :new
-    end
-  end
-
-  def edit
-    @url = Url.find(params[:id])
-  end
-
-  def update
-    @url = Url.find(params[:id])
-    if @url.update_attributes(params[:url])
-      redirect_to user_url_path(@url.user, @url)
-    else
-      render :edit
     end
   end
 
