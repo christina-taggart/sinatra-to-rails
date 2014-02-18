@@ -1,17 +1,18 @@
 class UrlsController < ApplicationController
-  def new
+
+  def index
     @url = Url.new
   end
 
   def create
-    url = params[:url]
-    @new_url = Url.new(long_url: url[:long_url])
-    @new_url.short_url = @new_url.shorten_url
-    @new_url.save
+    @new_url = Url.new(params[:url])
+    if !@new_url.save
+      render :new
+    end
   end
 
   def show
-    @long_url = Url.last.long_url
-    @short_url = Url.last.short_url
+    url = Url.find_by_short_url(params[:short_url])
+    redirect_to url.long_url
   end
 end

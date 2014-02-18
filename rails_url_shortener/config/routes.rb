@@ -1,6 +1,7 @@
 RailsUrlShortener::Application.routes.draw do
   root :to => 'urls#index'
-  resources :urls
+  get '/:short_url' => 'urls#show'
+  resources :urls, :only => [:new, :create, :show]
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

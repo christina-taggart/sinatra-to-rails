@@ -1,12 +1,10 @@
 class Url < ActiveRecord::Base
   attr_accessible :long_url, :short_url
-
-  def shorten_url
-    "localhost:3000/#{create_extension}"
-  end
+  validates :long_url, :uniqueness => true
+  before_create :create_extension
 
   def create_extension
     extension = ("A".."Z").to_a + (0..9).to_a + ("a".."z").to_a
-    extension.sample(6).join("")
+    self.short_url = extension.sample(6).join("")
   end
 end
