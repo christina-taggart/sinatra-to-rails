@@ -1,6 +1,6 @@
 class UrlsController < ApplicationController
   def index
-    @urls = Url.all
+    @urls = User.find(params[:user_id]).urls
   end
 
   def show

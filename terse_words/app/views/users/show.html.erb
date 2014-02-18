@@ -1,3 +1,4 @@
-<div id="user_list">
-<% @users.each do |user| %>
-<p>User Name:<%= user.name %><p>
+<div class="user">
+  <p>User Name:<%= @user.name %></p>
+  <p><%= link_to("User's URLs", user_urls_path(@user) %></p>
+</div>
