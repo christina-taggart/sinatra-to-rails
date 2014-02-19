@@ -24,6 +24,9 @@ include UrlsHelper
     @new_url = Url.new
   end
 
-
+  def go
+    @url = Url.where(url_digest: params[:url_digest]).first
+    redirect_to @url.original_url
+  end
 
 end

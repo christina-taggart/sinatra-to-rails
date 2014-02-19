@@ -1,0 +1,52 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (1.1ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.3ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 00:48:09 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 00:48:09 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.4ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (1.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (1.2ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.9ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 00:49:08 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 00:49:08 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.8ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK

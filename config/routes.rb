@@ -58,4 +58,5 @@ UrlShortener::Application.routes.draw do
 
   root :to => 'urls#index'
   resources :urls, only: [:create, :show]
+  match ':url_digest' => 'urls#go'
 end

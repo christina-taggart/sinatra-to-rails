@@ -7410,3 +7410,346 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 15:43:02 -0800
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/urls/2" for 127.0.0.1 at 2014-02-18 15:59:14 -0800
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUrl Load (1.6ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1[0m  [["id", "2"]]
+  Rendered urls/_form.html.erb (5.6ms)
+  Rendered urls/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 73ms (Views: 43.7ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 15:59:14 -0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 15:59:14 -0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 15:59:14 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 15:59:14 -0800
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 15:59:16 -0800
+Processing by UrlsController#index as HTML
+  Rendered urls/_form.html.erb (1.8ms)
+  Rendered urls/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 15:59:16 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 15:59:16 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 15:59:16 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 15:59:16 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 16:04:27 -0800
+Processing by UrlsController#index as HTML
+  Rendered urls/_form.html.erb (1.9ms)
+  Rendered urls/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 31ms (Views: 18.5ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 16:04:27 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 16:04:27 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 16:04:27 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 16:04:27 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2014-02-18 16:04:31 -0800
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E4rAKLdLPqKktU2zRlNtJpCE/SHKcDeREtVsCkvXfzI=", "url"=>{"original_url"=>"www.royshlee.com"}, "commit"=>"shorten"}
+  [1m[35mUrl Load (1.2ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'ed7254' LIMIT 1
+  [1m[36mUrl Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'ed7254' AND "urls"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'ed7254' AND "urls"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "urls" SET "visit_count" = 43, "updated_at" = '2014-02-19 00:04:31.920246' WHERE "urls"."id" = 2
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/urls/2
+Completed 302 Found in 31ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/urls/2" for 127.0.0.1 at 2014-02-18 16:04:31 -0800
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUrl Load (0.9ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "2"]]
+  Rendered urls/_form.html.erb (1.2ms)
+  Rendered urls/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 16:04:32 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 16:04:32 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 16:04:32 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 16:04:32 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/ed7254" for 127.0.0.1 at 2014-02-18 16:04:37 -0800
+Processing by UrlsController#go as HTML
+  Parameters: {"url_digest"=>"ed7254"}
+  [1m[36mUrl Load (0.7ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'ed7254'[0m
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `original_url' for #<ActiveRecord::Relation:0x007fd3b6009cb8>):
+  app/controllers/urls_controller.rb:29:in `go'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/ed7254" for 127.0.0.1 at 2014-02-18 16:04:59 -0800
+Processing by UrlsController#go as HTML
+  Parameters: {"url_digest"=>"ed7254"}
+  [1m[35mUrl Load (0.3ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'ed7254'
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `original_url' for #<ActiveRecord::Relation:0x007fd3b66db910>):
+  app/controllers/urls_controller.rb:30:in `go'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/ed7254" for 127.0.0.1 at 2014-02-18 16:05:42 -0800
+Processing by UrlsController#go as HTML
+  Parameters: {"url_digest"=>"ed7254"}
+  [1m[36mUrl Load (0.2ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'ed7254' LIMIT 1[0m
+Redirected to http://www.royshlee.com
+Completed 302 Found in 9ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 16:05:53 -0800
+Processing by UrlsController#index as HTML
+  Rendered urls/_form.html.erb (1.9ms)
+  Rendered urls/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 16:05:53 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 16:05:53 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 16:05:53 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 16:05:53 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2014-02-18 16:06:06 -0800
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E4rAKLdLPqKktU2zRlNtJpCE/SHKcDeREtVsCkvXfzI=", "url"=>{"original_url"=>"www.isitchristmas.com"}, "commit"=>"shorten"}
+  [1m[35mUrl Load (0.5ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = '690145' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = '690145' LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 00:06:06 UTC +00:00], ["original_url", "http://www.isitchristmas.com"], ["updated_at", Wed, 19 Feb 2014 00:06:06 UTC +00:00], ["url_digest", "690145"], ["visit_count", 0]]
+  [1m[35m (15.9ms)[0m  COMMIT
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = '690145' AND "urls"."id" != 12) LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = '690145' AND "urls"."id" != 12) LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 00:06:06.986153' WHERE "urls"."id" = 12
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/urls/12
+Completed 302 Found in 31ms (ActiveRecord: 20.1ms)
+
+
+Started GET "/urls/12" for 127.0.0.1 at 2014-02-18 16:06:06 -0800
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mUrl Load (0.4ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "12"]]
+  Rendered urls/_form.html.erb (1.5ms)
+  Rendered urls/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 16:06:07 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 16:06:07 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 16:06:07 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 16:06:07 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/690145" for 127.0.0.1 at 2014-02-18 16:06:11 -0800
+Processing by UrlsController#go as HTML
+  Parameters: {"url_digest"=>"690145"}
+  [1m[36mUrl Load (0.7ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = '690145' LIMIT 1[0m
+Redirected to http://www.isitchristmas.com
+Completed 302 Found in 2ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2014-02-18 16:07:43 -0800
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E4rAKLdLPqKktU2zRlNtJpCE/SHKcDeREtVsCkvXfzI=", "url"=>{"original_url"=>"www.washingtonpost.com"}, "commit"=>"shorten"}
+  [1m[35mUrl Load (0.4ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'e55025' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'e55025' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 00:07:43 UTC +00:00], ["original_url", "http://www.washingtonpost.com"], ["updated_at", Wed, 19 Feb 2014 00:07:43 UTC +00:00], ["url_digest", "e55025"], ["visit_count", 0]]
+  [1m[35m (16.3ms)[0m  COMMIT
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'e55025' AND "urls"."id" != 13) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'e55025' AND "urls"."id" != 13) LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 00:07:43.881713' WHERE "urls"."id" = 13
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/urls/13
+Completed 302 Found in 28ms (ActiveRecord: 19.5ms)
+
+
+Started GET "/urls/13" for 127.0.0.1 at 2014-02-18 16:07:43 -0800
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mUrl Load (0.4ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "13"]]
+  Rendered urls/_form.html.erb (1.4ms)
+  Rendered urls/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 16:07:44 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 16:07:44 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 16:07:44 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 16:07:44 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/e55025" for 127.0.0.1 at 2014-02-18 16:07:50 -0800
+Processing by UrlsController#go as HTML
+  Parameters: {"url_digest"=>"e55025"}
+  [1m[36mUrl Load (0.6ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'e55025' LIMIT 1[0m
+Redirected to http://www.washingtonpost.com
+Completed 302 Found in 2ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 16:31:36 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2014-02-18 16:31:37 -0800
+Processing by UrlsController#go as HTML
+  Parameters: {"url_digest"=>"urls"}
+  [1m[35mUrl Load (0.5ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'urls' LIMIT 1
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `original_url' for nil:NilClass):
+  app/controllers/urls_controller.rb:29:in `go'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.4ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (289.8ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (8.8ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.7ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (303.8ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.2ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.4ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.2ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (302.6ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.8ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.0ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (348.2ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (7.0ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.3ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (323.6ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.4ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
