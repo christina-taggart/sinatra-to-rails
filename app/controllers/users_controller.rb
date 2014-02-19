@@ -1,4 +1,4 @@
-class UsersController < ActionController::Base
+class UsersController < ApplicationController
   def index
     @users = User.all
   end
@@ -14,6 +14,7 @@ class UsersController < ActionController::Base
   def create
     @user = User.new params[:user]
     if @user.save
+      session[:id] = @user.id
       redirect_to user_path(@user)
     else
       render :new

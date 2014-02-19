@@ -1,2 +1,19 @@
-<%= link_to @post.title, post_path(@post) %><br/><br/>
-<%= @post.description %>
+<%= link_to @post.title, @post.link %><br/><br/>
+<%= @post.description %><br/>
+Upvotes: <%= @post.votes.count %><br/>
+
+<%= link_to "Click to upvote!", voteup_path(:post_id => @post.id), :method => :post %>
+<%= link_to "Add a comment!", new_post_comment_path(@post) %>
+<h2>Comments:</h2>
+<% @post.comments.each do |comment| %>
+  <p><%= comment.description %></p> by <%= comment.user.name %>
+  <hr>
+<% end %>
+
+<br/><br/><br/>
+
+
+
+
+
+<%= link_to "View all posts", posts_path %>

@@ -4,6 +4,6 @@ class Post < ActiveRecord::Base
   belongs_to :user
   has_many :comments
   has_many :votes
-  validates_presence_of :link, :title
+  validates_presence_of :link, :title, :description
   validates_uniqueness_of :link
 end

@@ -1,6 +1,7 @@
 <p>All the posts:</p>
+<%= link_to "Create new post", new_post_path %>
 <ol>
   <% @posts.each do |post| %>
-    <li><%= link_to post.title, post_path(post) %></li>
+    <li><%= link_to post.title, post_path(post) %> upvotes: <%= post.votes.count %></li>
   <% end %>
 </ol>

@@ -15,12 +15,20 @@ class User < ActiveRecord::Base
 
   before_validation :encrypt_password
 
-  def authenticate_user(password)
-    BCrypt::Password.new(self.password_hash) == password
+  def self.authenticate(email, password)
+    @user = User.where(email: email.downcase).first
+    if @user && BCrypt::Password.new(@user.password_hash) == password
+      return @user
+    end
+    false
   end
 
   private
   def encrypt_password
-    self.password_hash = BCrypt::Password.create(self.password_hash)
+    if self.password_hash.nil?
+      return nil
+    else
+      self.password_hash = BCrypt::Password.create(self.password_hash)
+    end
   end
 end

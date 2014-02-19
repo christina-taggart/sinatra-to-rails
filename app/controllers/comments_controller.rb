@@ -1,4 +1,4 @@
-class CommentsController < ActionController::Base
+class CommentsController < ApplicationController
 
   def index
     @comments = Comment.all
@@ -14,11 +14,12 @@ class CommentsController < ActionController::Base
   end
 
   def create
-    post = Post.find params[:post_id]
-    @comment = post.comments.build params[:comment]
+    @post = Post.find params[:post_id]
+    @comment = @post.comments.build(description: params[:comment][:description], user_id: session[:id], post_id: params[:post_id])
     if @comment.save
-      redirect_to post_comment_path(post, @comment)
+      redirect_to post_path(@post)
     else
+      puts @comment.errors.full_messages
       render :new
     end
   end
