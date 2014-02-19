@@ -1,18 +1,12 @@
 class UsersController < ApplicationController
-  before_filter :check_authorization
-
-  def check_authorization
-    unless session[:id] == params[:id].to_i
-      redirect_to root_path
-    end
-  end
+  before_filter :check_authentication
+  before_filter :check_authorization, :only => [:show, :destroy]
 
   def index
     @users = User.all
   end
 
   def show
-    @user = User.find(params[:id])
   end
 
   def new
@@ -23,6 +17,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     @user.password = params[:password]
     if @user.save
+      login(@user)
       redirect_to user_path(@user)
     else
       render :new
@@ -33,5 +28,10 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @user.destroy
     redirect_to root_path
+  end
+
+  private
+  def check_authorization
+    redirect_to root_path unless current_user.id == params[:id]
   end
 end
