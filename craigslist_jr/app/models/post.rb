@@ -1,5 +1,6 @@
 class Post < ActiveRecord::Base
   attr_accessible :title, :body, :price
+  has_many :replies
   belongs_to :category
   before_create :generate_secret_url
   validates :title, :body, presence: true
