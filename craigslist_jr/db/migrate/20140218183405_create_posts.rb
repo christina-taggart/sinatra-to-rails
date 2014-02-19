@@ -3,7 +3,7 @@ class CreatePosts < ActiveRecord::Migration
     create_table :posts do |t|
       t.belongs_to :category
       t.string :title, :body, :secret_url
-      t.integer :price
+      t.integer :price, default: 0
       t.timestamps
     end
   end

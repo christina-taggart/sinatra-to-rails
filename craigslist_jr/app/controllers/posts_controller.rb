@@ -16,6 +16,7 @@ class PostsController < ApplicationController
       flash[:notice] = "localhost:3000/categories/#{@category.id}/posts/#{@post.id}/#{@post.secret_url}"
       redirect_to @category
     else
+      p @category.errors.full_messages
       redirect_to new_category_post_path(@category)
     end
   end
@@ -31,7 +32,6 @@ class PostsController < ApplicationController
   def update
     @category = Category.find(params[:category_id])
     @post = Post.find(params[:id])
-
     if @post.update_attributes(params[:post])
       redirect_to @category
     else
