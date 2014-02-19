@@ -28,16 +28,21 @@ group :development, :test do
 end
 
 group :test do
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
   gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 
 gem 'jquery-rails'
 gem 'validates_email_format_of'
-gem 'bcrypt-ruby'
+# gem 'bcrypt-ruby'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
