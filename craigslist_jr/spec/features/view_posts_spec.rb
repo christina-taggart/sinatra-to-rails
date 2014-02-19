@@ -40,6 +40,29 @@ describe "view posts", :js => true do
         expect(page).to have_selector('#post_body')
         expect(page).to have_selector('#post_price')
       end
+
+      describe "submit post" do
+        before :each do
+          fill_in 'post_title', with: 'yellow sweatshirt'
+          fill_in 'post_body', with: 'soft yellow fleece'
+          fill_in 'post_price', with: '4000'
+          click_button 'Create Post'
+        end
+
+        it 'should redirect me to posts page' do
+          expect(page).to have_content(category.name)
+          expect(page).to have_link('Create a Post')
+        end
+
+        it 'should give me a secret url' do
+          secret_url = Post.last.secret_url
+          expect(page).to have_content(secret_url)
+        end
+
+        it 'should show me new post' do
+          expect(page).to have_content('yellow sweatshirt')
+        end
+      end
     end
   end
 end
