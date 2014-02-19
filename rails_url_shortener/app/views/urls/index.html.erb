@@ -4,3 +4,9 @@
   <%= f.text_field :long_url %>
   <%= f.submit %>
 <% end %>
+
+<ul>
+  <% @urls.each do |url| %>
+    <li><%= render 'url', :url => url %></li>
+  <% end %>
+</ul>

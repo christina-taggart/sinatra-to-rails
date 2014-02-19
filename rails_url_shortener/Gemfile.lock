@@ -35,8 +35,17 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.0.4)
+    capybara (2.2.1)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    childprocess (0.5.1)
+      ffi (~> 1.0, >= 1.0.11)
     coderay (1.1.0)
     columnize (0.3.6)
+    database_cleaner (1.2.0)
     debug_inspector (0.0.2)
     debugger (1.6.5)
       columnize (>= 0.3.1)
@@ -47,6 +56,14 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.0.2)
+    factory_girl (4.4.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.4.0)
+      factory_girl (~> 4.4.0)
+      railties (>= 3.0.0)
+    faker (1.2.0)
+      i18n (~> 0.5)
+    ffi (1.9.3)
     hike (1.2.3)
     i18n (0.6.1)
     journey (1.0.4)
@@ -58,7 +75,10 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
+    mini_portile (0.5.2)
     multi_json (1.8.4)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
     pg (0.17.1)
     polyglot (0.3.4)
     rack (1.4.5)
@@ -99,6 +119,12 @@ GEM
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
       rspec-mocks (~> 2.14.0)
+    rubyzip (1.1.0)
+    selenium-webdriver (2.39.0)
+      childprocess (>= 0.2.5)
+      multi_json (~> 1.0)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0.4)
     sextant (0.2.4)
       rails (>= 3.2)
     shoulda-matchers (2.4.0)
@@ -118,6 +144,9 @@ GEM
     uglifier (2.4.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    websocket (1.0.7)
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
 
 PLATFORMS
   ruby
@@ -125,12 +154,17 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
+  capybara
+  database_cleaner
   debugger
+  factory_girl_rails
+  faker
   jquery-rails
   pg
   rails (= 3.2.13)
   rails_db_info
   rspec-rails
+  selenium-webdriver
   sextant
   shoulda-matchers
   shoulda-matchers-callbacks

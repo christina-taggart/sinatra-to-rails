@@ -23,6 +23,11 @@ end
 group :test do
   gem 'shoulda-matchers'
   gem 'shoulda-matchers-callbacks'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 gem 'jquery-rails'
