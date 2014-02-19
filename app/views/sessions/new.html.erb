@@ -1,8 +1,20 @@
-<h1>Sign in -- This is the new route for sessions</h1>
-<%= form_for(:session, url: sessions_path) do |f| %>
-  <%= f.label :email %>
-  <%= f.text_field :email %>
-  <%= f.label :password %>
-  <%= f.password_field :password %>
-  <%= f.submit "Sign in" %>
-<% end %>
+<div class="container">
+  <h1>Sign In</h1>
+
+  <div class="row">
+    <div class="col-md-5">
+      <%= form_for(:session, url: sessions_path) do |f| %>
+        <div class="form-group">
+        <%= f.label :email %><br/>
+        <%= f.text_field :email %>
+      </div>
+      <div class="form-group">
+        <%= f.label :password %><br/>
+        <%= f.password_field :password %>
+      </div>
+        <%= f.submit "Sign In", :class => 'btn btn-success' %>
+      <% end %>
+    </div>
+  </div>
+
+</div>

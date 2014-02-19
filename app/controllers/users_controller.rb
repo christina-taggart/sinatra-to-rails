@@ -5,6 +5,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find params[:id]
+    @walls = Wall.where(admin_id: @user.id)
   end
 
   def new

@@ -3,7 +3,14 @@
 Upvotes: <%= @post.votes.count %><br/>
 
 <%= link_to "Click to upvote!", voteup_path(:post_id => @post.id), :method => :post %>
-<%= link_to "Add a comment!", new_post_comment_path(@post) %>
+<%= link_to "Add a comment!", new_wall_post_comment_path(@post.wall, @post.id) %>
+
+<%= form_for [@wall, @post, @comment] do |f| %>
+  Description: <%= f.text_area :description %><br />
+  <%= @comment.errors[:description].join("<br>") if @comment.errors[:description] %>
+  <%= f.submit %>
+<% end %>
+
 <h2>Comments:</h2>
 <% @post.comments.each do |comment| %>
   <p><%= comment.description %></p> by <%= comment.user.name %>
@@ -16,4 +23,4 @@ Upvotes: <%= @post.votes.count %><br/>
 
 
 
-<%= link_to "View all posts", posts_path %>
+<%= link_to "View all posts", wall_posts_path %>

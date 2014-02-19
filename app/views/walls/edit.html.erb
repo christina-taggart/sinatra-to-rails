@@ -1,0 +1,7 @@
+<%= form_for @wall do |f| %>
+  Name: <%= f.text_field :name %><br />
+  Access Code: <%= f.text_field :access_code %><br />
+  Description: <%= f.text_area :description %><br />
+  <%= f.hidden_field :admin_id, :value => @user_id %>
+  <%= f.submit %>
+<% end %>

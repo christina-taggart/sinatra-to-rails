@@ -1,18 +1,22 @@
 Hackernewsclone::Application.routes.draw do
 
-  root :to => 'posts#index'
+  root :to => 'pages#index'
 
 
-  resources :posts do
-    resources :comments
+  resources :walls do
+    resources :memberships, only: [:new, :create]
+    resources :posts do
+      resources :comments
+    end
   end
+
+  resources :users
 
   resource :sessions, only: [:new, :create, :destroy]
   match '/signup', to: 'users#new', via: 'get'
   match '/signin', to: 'sessions#new', via: 'get'
   match '/signout', to: 'sessions#destroy', via: 'delete'
 
-  resources :users
 
   resource :votes, only: [:create]
   match '/voteup', to: 'votes#create', via: 'post'

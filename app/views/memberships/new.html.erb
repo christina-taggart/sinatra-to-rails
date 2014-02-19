@@ -1,0 +1,9 @@
+      <%= form_for [@wall, @membership] do |f| %>
+        <%= label_tag :access_code %>
+        <%= text_field_tag :access_code %>
+        <%= f.hidden_field :user_id, :value => @user.id %>
+        <%= f.hidden_field :wall_id, :value => @wall_id %>
+        <%= f.submit %>
+      <% end %>
+
+

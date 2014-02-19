@@ -12,6 +12,8 @@ class User < ActiveRecord::Base
   has_many :posts
   has_many :comments
   has_many :votes
+  has_many :walls, through: :memberships
+  has_many :memberships
 
   before_validation :encrypt_password
 

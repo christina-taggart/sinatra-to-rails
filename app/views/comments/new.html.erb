@@ -1,4 +1,4 @@
-<%= form_for [@post, @comment] do |f| %>
+<%= form_for [@wall, @post, @comment] do |f| %>
   Description: <%= f.text_area :description %><br />
   <%= @comment.errors[:description].join("<br>") if @comment.errors[:description] %>
   <%= f.submit %>
