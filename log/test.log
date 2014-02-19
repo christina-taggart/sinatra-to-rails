@@ -50,3 +50,1305 @@ Connecting to database specified by database.yml
   [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
   [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
   [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 8.2ms | ActiveRecord: 5.8ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 7.7ms | ActiveRecord: 6.7ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 19ms (Views: 7.4ms | ActiveRecord: 5.4ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 24ms (Views: 9.2ms | ActiveRecord: 7.5ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 9.1ms | ActiveRecord: 5.5ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 22ms (Views: 8.0ms | ActiveRecord: 7.5ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 25ms (Views: 9.1ms | ActiveRecord: 7.8ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 7.5ms | ActiveRecord: 7.6ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 28ms (Views: 8.4ms | ActiveRecord: 7.6ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 8.7ms | ActiveRecord: 7.8ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 7.8ms | ActiveRecord: 8.1ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 22ms (Views: 7.7ms | ActiveRecord: 7.6ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 7.9ms | ActiveRecord: 7.7ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 37ms (Views: 24.8ms | ActiveRecord: 5.6ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.9ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.8ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:25:39 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:25:39 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.8ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.2ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.7ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:28:26 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:28:26 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.5ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (1.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.6ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.9ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:33:01 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:33:01 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (1.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 24.7ms | ActiveRecord: 8.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.6ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:35:05 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:35:05 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.8ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 25.9ms | ActiveRecord: 6.2ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.9ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:36:05 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:36:05 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:36:05.193178' WHERE "urls"."id" = 1[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/1
+Completed 302 Found in 30ms (ActiveRecord: 5.8ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.3ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:36:05 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:36:05 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.8ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (2.9ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:48:08 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:48:08 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.6ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:48:08.259841' WHERE "urls"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/1
+Completed 302 Found in 49ms (ActiveRecord: 6.8ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.3ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:48:08 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:48:08 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 43ms (Views: 26.8ms | ActiveRecord: 8.1ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.8ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:49:59 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:49:59 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (1.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:49:59.337102' WHERE "urls"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/1
+Completed 302 Found in 30ms (ActiveRecord: 6.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mUrl Load (0.7ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "12"]]
+Completed 404 Not Found in 2ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.3ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:49:59 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:49:59 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mUrl Load (1.4ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "12"]]
+Completed 404 Not Found in 12ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[35mUrl Load (0.8ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.6ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:50:26 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:50:26 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[35m (0.4ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:50:26.483341' WHERE "urls"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls/1
+Completed 302 Found in 53ms (ActiveRecord: 5.9ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.3ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:50:26 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:50:26 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (1.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.3ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (5.0ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:50:49 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:50:49 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.8ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 2ms
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[35mUrl Load (0.5ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:50:49 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:50:49 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:50:49.189171' WHERE "urls"."id" = 2
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls/2
+Completed 302 Found in 14ms (ActiveRecord: 2.8ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 22ms (Views: 7.6ms | ActiveRecord: 7.7ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (1.1ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (3.8ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:51:13 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:51:13 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:51:13.460649' WHERE "urls"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/1
+Completed 302 Found in 51ms (ActiveRecord: 7.8ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (0.7ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 2ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.3ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:51:13 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:51:13 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (1.0ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.2ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.7ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:51:22 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:51:22 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.8ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (1.1ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 2ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[35mUrl Load (0.7ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:51:22 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:51:22 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.8ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:51:22.647729' WHERE "urls"."id" = 2
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls/2
+Completed 302 Found in 14ms (ActiveRecord: 4.0ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 26.2ms | ActiveRecord: 5.8ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (1.8ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 4ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[35mUrl Load (1.3ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:53:50 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:53:50 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:53:50.408695' WHERE "urls"."id" = 1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls/1
+Completed 302 Found in 29ms (ActiveRecord: 5.7ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.3ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:53:50 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:53:50 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 40ms (Views: 26.0ms | ActiveRecord: 7.1ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.8ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:54:09 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:54:09 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.9ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:54:09.209460' WHERE "urls"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/1
+Completed 302 Found in 31ms (ActiveRecord: 7.7ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.3ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:54:09 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:54:09 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (1.3ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (3.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:54:36 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:54:36 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:54:36.591249' WHERE "urls"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/1
+Completed 302 Found in 58ms (ActiveRecord: 8.0ms)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.2ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:54:36 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:54:36 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 7.8ms | ActiveRecord: 5.7ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (1.5ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 4ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[35mUrl Load (1.1ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:55:02 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:55:02 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:55:02.667048' WHERE "urls"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls/1
+Completed 302 Found in 49ms (ActiveRecord: 5.2ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.3ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:55:02 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:55:02 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 26.0ms | ActiveRecord: 7.9ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.8ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:56:52 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:56:52 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:56:52.926835' WHERE "urls"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/1
+Completed 302 Found in 29ms (ActiveRecord: 5.8ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (0.7ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 2ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.2ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:56:52 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:56:52 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (1.8ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 13ms
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[35mUrl Load (1.3ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:57:17 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:57:17 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:57:17.322821' WHERE "urls"."id" = 1
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls/1
+Completed 302 Found in 57ms (ActiveRecord: 5.7ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.4ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:57:17 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:57:17 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.7ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (1.1ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (6.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:58:06 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:58:06 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.9ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.8ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:58:06 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:58:06 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:58:06.745104' WHERE "urls"."id" = 2[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/2
+Completed 302 Found in 14ms (ActiveRecord: 3.7ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (0.7ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 2ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (1.6ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 3ms
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[35mUrl Load (1.2ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:59:30 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:59:30 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:59:30.671705' WHERE "urls"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls/1
+Completed 302 Found in 47ms (ActiveRecord: 5.4ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUrl Load (0.4ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 01:59:30 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:59:30 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 41ms (Views: 26.0ms | ActiveRecord: 7.9ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (1.1ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUrl Load (1.5ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+Completed 404 Not Found in 3ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (1.2ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:59:42 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 01:59:42 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 01:59:42.855217' WHERE "urls"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/1
+Completed 302 Found in 23ms (ActiveRecord: 5.6ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.2ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 01:59:42 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 01:59:42 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (1.0ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.3ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (22.9ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:00:25 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 02:00:25 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.9ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+Completed 404 Not Found in 2ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.4ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:00:25 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 02:00:25 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 02:00:25.163910' WHERE "urls"."id" = 2[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/2
+Completed 302 Found in 13ms (ActiveRecord: 3.0ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUrl Load (1.5ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 12ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[35mUrl Load (0.8ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1
+  [1m[36mSQL (2.1ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 02:00:39 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 02:00:39 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 02:00:39.136100' WHERE "urls"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/urls/1
+Completed 302 Found in 52ms (ActiveRecord: 5.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "urls" 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.3ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 02:00:39 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 02:00:39 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (1.1ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (5.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:01:21 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 02:01:21 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (1.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.5ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:01:21 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 02:01:21 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 2) LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 02:01:21.971104' WHERE "urls"."id" = 2[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/2
+Completed 302 Found in 15ms (ActiveRecord: 3.6ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UrlsController#index as HTML
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (1.1ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mSQL (25.3ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["original_url", "www.google.com"], ["updated_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["url_digest", nil], ["visit_count", 0]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["original_url", "www.google.com"], ["updated_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["url_digest", nil], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (1.1ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 3) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 3) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 02:02:27.464768' WHERE "urls"."id" = 3[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/3
+Completed 302 Found in 17ms (ActiveRecord: 3.9ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["original_url", "www.google.com"], ["updated_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["url_digest", nil], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUrl Load (0.7ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "4"]]
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.2ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 02:02:27 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (1.1ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Load (0.3ms)[0m  SELECT "urls".* FROM "urls" LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (23.8ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.8ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["original_url", "www.google.com"], ["updated_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["url_digest", nil], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["original_url", "www.google.com"], ["updated_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["url_digest", nil], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.4ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.4ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 4) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 4) LIMIT 1
+  [1m[36m (0.8ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 02:02:48.481842' WHERE "urls"."id" = 4[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/4
+Completed 302 Found in 14ms (ActiveRecord: 3.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["original_url", "www.google.com"], ["updated_at", Wed, 19 Feb 2014 02:02:48 UTC +00:00], ["url_digest", nil], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUrl Load (0.8ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "5"]]
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.8ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mSQL (27.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["original_url", "www.google.com"], ["updated_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["url_digest", nil], ["visit_count", 0]]
+  [1m[36m (0.4ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["original_url", "www.google.com"], ["updated_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["url_digest", nil], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "urls" 
+Processing by UrlsController#create as HTML
+  Parameters: {"url"=>{"original_url"=>"google.com"}}
+  [1m[36mUrl Load (0.7ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'aa2239' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["original_url", "http://google.com"], ["updated_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["url_digest", "aa2239"], ["visit_count", 0]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.5ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 3) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = 'aa2239' AND "urls"."id" != 3) LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mUPDATE "urls" SET "visit_count" = 1, "updated_at" = '2014-02-19 02:03:31.434711' WHERE "urls"."id" = 3[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/urls/3
+Completed 302 Found in 16ms (ActiveRecord: 3.4ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "urls" [0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["original_url", "www.google.com"], ["updated_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["url_digest", nil], ["visit_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUrl Load (0.6ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "4"]]
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.6ms)
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.6ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1[0m
+  [1m[35mUrl Exists (0.2ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Load (0.2ms)[0m  [1mSELECT "urls".* FROM "urls" LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "urls" ("created_at", "original_url", "updated_at", "url_digest", "visit_count") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["original_url", nil], ["updated_at", Wed, 19 Feb 2014 02:03:31 UTC +00:00], ["url_digest", "arbitrary_string"], ["visit_count", 0]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'arbitrary_string' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m

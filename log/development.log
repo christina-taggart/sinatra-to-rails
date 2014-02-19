@@ -7753,3 +7753,462 @@ Connecting to database specified by database.yml
   [1m[36m (2.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
   [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
   [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.3ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (286.0ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.4ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.4ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (340.2ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.4ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+
+
+Started GET "/urls" for 127.0.0.1 at 2014-02-18 17:00:53 -0800
+Processing by UrlsController#go as HTML
+  Parameters: {"url_digest"=>"urls"}
+  [1m[36mUrl Load (0.4ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'urls' LIMIT 1[0m
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `original_url' for nil:NilClass):
+  app/controllers/urls_controller.rb:29:in `go'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 17:00:56 -0800
+Processing by UrlsController#index as HTML
+  Rendered urls/_form.html.erb (2.0ms)
+  Rendered urls/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 17:00:56 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 17:00:56 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 17:00:56 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 17:00:56 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2014-02-18 17:00:58 -0800
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E4rAKLdLPqKktU2zRlNtJpCE/SHKcDeREtVsCkvXfzI=", "url"=>{"original_url"=>""}, "commit"=>"shorten"}
+  [1m[35mUrl Load (0.5ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = '8c8dac' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUrl Exists (0.3ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = '8c8dac' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = '8c8dac' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 17:00:58 -0800
+Processing by UrlsController#index as HTML
+  Rendered urls/_form.html.erb (1.1ms)
+  Rendered urls/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 17:00:58 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 17:00:58 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 17:00:58 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 17:00:58 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2014-02-18 17:01:01 -0800
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E4rAKLdLPqKktU2zRlNtJpCE/SHKcDeREtVsCkvXfzI=", "url"=>{"original_url"=>"asda"}, "commit"=>"shorten"}
+  [1m[36mUrl Load (0.4ms)[0m  [1mSELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = 'd710d0' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUrl Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'd710d0' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE "urls"."url_digest" = 'd710d0' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-18 17:01:01 -0800
+Processing by UrlsController#index as HTML
+  Rendered urls/_form.html.erb (1.2ms)
+  Rendered urls/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 17:01:02 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 17:01:02 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 17:01:02 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 17:01:02 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2014-02-18 17:01:06 -0800
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E4rAKLdLPqKktU2zRlNtJpCE/SHKcDeREtVsCkvXfzI=", "url"=>{"original_url"=>"www.google.com"}, "commit"=>"shorten"}
+  [1m[35mUrl Load (0.5ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."url_digest" = '253d14' LIMIT 1
+  [1m[36mUrl Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = '253d14' AND "urls"."id" != 3) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "urls" WHERE ("urls"."url_digest" = '253d14' AND "urls"."id" != 3) LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "urls" SET "visit_count" = 2, "updated_at" = '2014-02-19 01:01:06.175015' WHERE "urls"."id" = 3
+  [1m[36m (15.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/urls/3
+Completed 302 Found in 23ms (ActiveRecord: 17.2ms)
+
+
+Started GET "/urls/3" for 127.0.0.1 at 2014-02-18 17:01:06 -0800
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUrl Load (0.4ms)[0m  SELECT "urls".* FROM "urls" WHERE "urls"."id" = $1 LIMIT 1  [["id", "3"]]
+  Rendered urls/_form.html.erb (1.5ms)
+  Rendered urls/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-18 17:01:06 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-18 17:01:06 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-18 17:01:06 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-18 17:01:06 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.0ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (304.2ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.3ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.1ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.4ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (320.8ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (11.3ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.4ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (312.7ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.2ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.6ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (319.9ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (7.4ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.4ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.8ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (322.7ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.4ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.3ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.4ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (307.9ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.6ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.3ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.6ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (330.0ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.2ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.5ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (310.5ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.5ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.7ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.8ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.2ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (325.3ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.9ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.7ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (308.9ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (8.4ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.1ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (322.8ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.3ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.4ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.3ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (330.7ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.8ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (118.6ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (287.0ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (9.0ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (1.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (318.3ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (288.0ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.4ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.0ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.7ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (326.7ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.1ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.2ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.5ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (302.7ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.7ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.7ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (272.8ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.6ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (118.3ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (290.3ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (7.1ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.3ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (296.9ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.3ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.2ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (323.4ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (7.2ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.9ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.4ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (305.0ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.3ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.1ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (309.2ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.2ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (115.7ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (283.7ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.4ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.4ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (344.3ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (5.9ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.5ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (310.5ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.9ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.0ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (321.5ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.6ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.2ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (117.0ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (320.5ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.2ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.7ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (115.5ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (287.4ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (9.8ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.1ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (2.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.5ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (116.5ms)[0m  DROP DATABASE IF EXISTS "url_shortener_test"
+  [1m[36m (298.4ms)[0m  [1mCREATE DATABASE "url_shortener_test" ENCODING = 'utf8'[0m
+  [1m[35m (6.1ms)[0m  CREATE TABLE "urls" ("id" serial primary key, "original_url" character varying(255), "url_digest" character varying(255), "visit_count" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (1.9ms)[0m  [1mCREATE INDEX "index_urls_on_url_digest" ON "urls" ("url_digest")[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140218174744')[0m
