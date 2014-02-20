@@ -1,0 +1,7 @@
+<h2>Posts for Category: <%= @category.name %></h2>
+
+<ul>
+  <% @posts.each do |p| %>
+    <li><%= link_to p.title, '/#' %></li>
+  <% end %>
+</ul>
